@@ -28,7 +28,7 @@ function App() {
 
     console.log("Search Successful")
 
-    const url = "http://api.weatherapi.com/v1/current.json?key=642ceafd1a094b1189655952212608&q=" + inpt + "&aqi=yes";
+    const url = "https://api.weatherapi.com/v1/current.json?key=642ceafd1a094b1189655952212608&q=" + inpt + "&aqi=yes";
    
 
     axios
